@@ -4,6 +4,7 @@
 #       Plot#2
 #        04-Mar-2015
 
+# Outputs a line graph of 'data' into 'file'
 plot2 <- function(data, file) {
     
     # Create  png with filename file
