@@ -15,6 +15,7 @@ plot1 <- function(data, file) {
          main = "Global Active Power",
          col="red",
          xlab = "Global Active Power (kilowatts)" )
+
     # Close graphics device
     dev.off()
 }
