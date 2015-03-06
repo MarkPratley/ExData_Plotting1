@@ -12,15 +12,15 @@ This is a solution for project#1 of [Exploring data](https://class.coursera.org/
 * [plot4.R](plot4.R) - R code for Plot4
 * [GetCleanData.R](GetCleanData.R) - Handy Get and Clean data file - not used now
 * [figure/](figure/)
-    * [unnamed-chunk-2.png](unnamed-chunk-2.png) - Example file#1
-    * [unnamed-chunk-3.png](unnamed-chunk-3.png) - Example file#1
-    * [unnamed-chunk-4.png](unnamed-chunk-4.png) - Example file#1
-    * [unnamed-chunk-5.png](unnamed-chunk-5.png) - Example file#1
+    * [unnamed-chunk-2.png](figure/unnamed-chunk-2.png) - Example file#1
+    * [unnamed-chunk-3.png](figure/unnamed-chunk-3.png) - Example file#1
+    * [unnamed-chunk-4.png](figure/unnamed-chunk-4.png) - Example file#1
+    * [unnamed-chunk-5.png](figure/unnamed-chunk-5.png) - Example file#1
 * [myplots/](myplots/)
-    * [plot1.png](plot1.png) - My Plot #1 Created with Plot1.R
-    * [plot2.png](plot2.png) - My Plot #2 Created with Plot2.R
-    * [plot3.png](plot3.png) - My Plot #3 Created with Plot3.R
-    * [plot4.png](plot4.png) - My Plot #4 Created with Plot4.R
+    * [plot1.png](myplots/plot1.png) - My Plot #1 Created with Plot1.R
+    * [plot2.png](myplots/plot2.png) - My Plot #2 Created with Plot2.R
+    * [plot3.png](myplots/plot3.png) - My Plot #3 Created with Plot3.R
+    * [plot4.png](myplots/plot4.png) - My Plot #4 Created with Plot4.R
 
 ### Running the plots
 
