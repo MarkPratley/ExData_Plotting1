@@ -11,7 +11,7 @@ plot2 <- function(data, file) {
     png(filename = file, width = 480, height=480)
 
     # line plot of gap over time
-    plot(df$Timestamp, df$GAP,
+    plot(data$Timestamp, data$GAP,
          type = "l",
          xlab = "",
          ylab = "Global Active Power (kilowatts)" )

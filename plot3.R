@@ -17,13 +17,13 @@ plot3 <- function(data, file) {
          ylab="Energy sub metering")
 
     # Sub 1 - Black
-    points(df$Timestamp, df$Sub1, type="l")
+    points(data$Timestamp, data$Sub1, type="l")
     
     # Sub 2 - Red
-    points(df$Timestamp, df$Sub2, type="l", col="red")
+    points(data$Timestamp, data$Sub2, type="l", col="red")
     
     # Sub 3 - Blue
-    points(df$Timestamp, df$Sub3, type="l", col="blue")
+    points(data$Timestamp, data$Sub3, type="l", col="blue")
     
     # Add legend
     legend("topright",

@@ -18,13 +18,13 @@ plot4 <- function(data, file) {
     par(mfrow=c(2,2))
 
     # GAP vs timestamp
-    plot(df$Timestamp, df$GAP,
+    plot(data$Timestamp, data$GAP,
          ylab = "Global Active Power",
          xlab="",
          type="l")
     
     # voltage vs timestamp
-    plot(df$Timestamp, df$Voltage,
+    plot(data$Timestamp, data$Voltage,
          ylab = "Voltage",
          xlab="datetime",
          type="l")
@@ -37,13 +37,13 @@ plot4 <- function(data, file) {
          ylab="Energy sub metering")
     
         # Sub 1 - Black
-        points(df$Timestamp, df$Sub1, type="l")
+        points(data$Timestamp, data$Sub1, type="l")
         
         # Sub 2 - Red
-        points(df$Timestamp, df$Sub2, type="l", col="red")
+        points(data$Timestamp, data$Sub2, type="l", col="red")
         
         # Sub 3 - Blue
-        points(df$Timestamp, df$Sub3, type="l", col="blue")
+        points(data$Timestamp, data$Sub3, type="l", col="blue")
         
         # Add legend
         legend("topright",
@@ -53,7 +53,7 @@ plot4 <- function(data, file) {
                bty="n")     # No border on legend
     
     # GRP Plot    
-    plot(df$Timestamp, df$GRP,
+    plot(data$Timestamp, data$GRP,
          ylab = "global_reactive_power",
          xlab="datetime",
          type="l")
